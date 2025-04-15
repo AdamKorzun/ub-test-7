@@ -1,0 +1,29 @@
+id: '17446274722950.42418297900642754'
+kind: workflow
+name: newAction
+nameConfigured: false
+steps:
+  - id: '17446274722920.28213565867003554'
+    type: draft
+    name: newStep
+    params: []
+    level: 0
+    fallthroughError: false
+    isChanged: false
+mode: manual
+modeConfigured: false
+parentPageId: '1'
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.newAction.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.newAction.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.newAction.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
