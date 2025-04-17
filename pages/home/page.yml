@@ -26,3 +26,4 @@ slots:
               - components/tabs.yml
               - components/tabs2.yml
               - components/tabset/tabset.yml
+              - components/listView/listView.yml

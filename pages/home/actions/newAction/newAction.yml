@@ -3,13 +3,17 @@ kind: workflow
 name: newAction
 nameConfigured: false
 steps:
-  - id: '17446274722920.28213565867003554'
-    type: draft
-    name: newStep
-    params: []
+  - id: '17448138721950.7024951044366566'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: ./code.js
+        valueType: interpolatedValue
+        interpolationType: code
     level: 0
     fallthroughError: false
-    isChanged: false
+    isChanged: true
 mode: manual
 modeConfigured: false
 parentPageId: '1'

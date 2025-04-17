@@ -3,7 +3,7 @@ metadata:
   title: '[Sample] Dashboard'
   description: ''
   breakpoints: []
-  rendererCachingEnabled: true
+  rendererCachingEnabled: false
   skipDepsComparisonInCompilerCache: false
 appSettings:
   properties:
