@@ -23,6 +23,4 @@ slots:
             name: content
             bindings: {}
             children:
-              - components/tabs.yml
-              - components/tabs2.yml
               - components/tabset/tabset.yml
